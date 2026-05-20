@@ -190,11 +190,9 @@ For academic or non-commercial use only. See the license agreement at the UMN Te
 
 ## Questions and Contributions
 
-For feedback, questions, or suggested additions, contact the PersonaLex team:
+For feedback, questions, or suggested additions, please reach out to:
 
 -   Adam Saffer — [asaffer\@umn.edu](mailto:asaffer@umn.edu)
--   Joshua Scacco — [jscacco\@usf.edu](mailto:jscacco@usf.edu)
--   Jianing Li — [jianing.li\@rutgers.edu](mailto:jianing.li@rutgers.edu)
 
 ------------------------------------------------------------------------
 
