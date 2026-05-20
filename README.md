@@ -21,7 +21,7 @@ PersonaLex addresses these challenges with a structured, validated lexicon of te
 PersonaLex v1.0 classifies text across 8 top-level categories, each with subcategories:
 
 | Category | Subcategories |
-|-----------------|-------------------------------------------------------|
+|------------------|------------------------------------------------------|
 | **Religion** | Christian, Jewish, Muslim, Nonaligned, Other |
 | **Race** | Multiracial, White, Black, Asian, Hispanic, Native/NA |
 | **Skin Tone** | Dark, Light, Medium, Medium-Dark, Medium-Light |
@@ -45,22 +45,25 @@ PersonaLex was developed through a rigorous multi-phase validation process:
 -   Inter-coder reliability reaching acceptable levels across all categories (Krippendorff's α ranging from 0.760 to 0.962)
 -   Classifier performance validated against human codes meeting acceptable standards for precision, recall, F1 score, and accuracy across all categories
 
-| Category  | Precision | Recall | F1    | Accuracy |
-|-----------|-----------|--------|-------|----------|
-| Religion  | 0.903     | 0.746  | 0.817 | 0.980    |
-| Race      | 0.966     | 0.852  | 0.906 | 0.995    |
-| Ethnicity | 0.956     | 0.733  | 0.830 | 0.986    |
-| Military  | 0.933     | 0.875  | 0.903 | 0.997    |
-| Issues    | 0.950     | 0.873  | 0.910 | 0.988    |
-| Political | 0.723     | 0.846  | 0.780 | 0.976    |
-| Sports    | 0.985     | 0.795  | 0.880 | 0.985    |
+<!--
+
+| Category  | Precision | Recall |  F1   | Accuracy |
+|-----------|:---------:|:------:|:-----:|:--------:|
+| Religion  |   0.903   | 0.746  | 0.817 |  0.980   |
+| Race      |   0.966   | 0.852  | 0.906 |  0.995   |
+| Ethnicity |   0.956   | 0.733  | 0.830 |  0.986   |
+| Military  |   0.933   | 0.875  | 0.903 |  0.997   |
+| Issues    |   0.950   | 0.873  | 0.910 |  0.988   |
+| Political |   0.723   | 0.846  | 0.780 |  0.976   |
+| Sports    |   0.985   | 0.795  | 0.880 |  0.985   |
+-->
 
 ------------------------------------------------------------------------
 
 ## Repository Contents
 
 | File | Description |
-|-------------------|------------------------------------------------------|
+|-------------------|----------------------------------------------------|
 | `01_load_lexicon.R` | Loads the lexicon CSV into R and saves it as `lexicon_df.rds` |
 | `02_build_classifier.R` | Compiles the lexicon into a structured classifier object (`clf`) |
 | `03_run_classifier.R` | Applies the classifier to text data; includes both simple and parallel approaches |
