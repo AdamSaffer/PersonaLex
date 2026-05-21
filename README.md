@@ -24,7 +24,7 @@ PersonaLex v1.0 classifies text across 8 top-level categories, each with subcate
 |------------------|------------------------------------------------------|
 | **Religion** | Christian, Jewish, Muslim, Nonaligned, Other |
 | **Race** | Multiracial, White, Black, Asian, Hispanic, Native/NA |
-| **Skin Tone** | Dark, Light, Medium, Medium-Dark, Medium-Light |
+| **Skin Tone Emojis** | Dark, Light, Medium, Medium-Dark, Medium-Light Emojis|
 | **Ethnicity** | Africa, Asia, Europe, North America, Oceania, South America |
 | **Military** | Army, National Guard, Navy, Marine Corps, Air Force, Coast Guard, Space Force, Judge Advocate General |
 | **Issue** | General, Guns & Crime, Racial Justice, Immigration, Disability, LGBTQ+, Economic, Union & Labor, Healthcare, Gender |
